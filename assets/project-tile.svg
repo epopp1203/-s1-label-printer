@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="520" viewBox="0 0 1280 520" role="img" aria-labelledby="title description">
+  <title id="title">iDPRT S1 BLE label printer</title>
+  <desc id="description">A dark burgundy project banner with a thermal label illustration and Bluetooth waves.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#18090d"/>
+      <stop offset="0.55" stop-color="#321019"/>
+      <stop offset="1" stop-color="#650f23"/>
+    </linearGradient>
+    <linearGradient id="label" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdfb"/>
+      <stop offset="1" stop-color="#f0e8e4"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#080205" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="520" rx="34" fill="url(#background)"/>
+  <circle cx="1110" cy="80" r="210" fill="#e31837" opacity=".11"/>
+  <circle cx="1010" cy="470" r="245" fill="#ff6378" opacity=".07"/>
+  <path d="M0 416c210-115 358 116 588-8" fill="none" stroke="#ff8190" stroke-opacity=".12" stroke-width="2"/>
+  <g font-family="system-ui,Segoe UI,Arial,sans-serif">
+    <text x="84" y="124" fill="#ff9baa" font-size="22" font-weight="700" letter-spacing="5">BLUETOOTH LE • LINUX • CODE 128</text>
+    <text x="80" y="224" fill="#fff7f6" font-size="59" font-weight="750">Print labels directly</text>
+    <text x="84" y="286" fill="#f3dadd" font-size="29">A protocol-focused guide for the iDPRT S1</text>
+    <rect x="84" y="343" width="244" height="54" rx="27" fill="#e31837"/>
+    <text x="206" y="378" fill="#fff" font-size="20" font-weight="700" text-anchor="middle">NO CLOUD REQUIRED</text>
+  </g>
+  <g transform="translate(790 105) rotate(-5 180 150)" filter="url(#shadow)">
+    <rect x="0" y="0" width="390" height="300" rx="22" fill="#e31837"/>
+    <rect x="24" y="22" width="342" height="255" rx="12" fill="url(#label)"/>
+    <text x="195" y="79" fill="#311018" font-family="system-ui,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" text-anchor="middle">DEMO LABEL</text>
+    <g fill="#1a1011">
+      <path d="M74 111h7v118h-7zm15 0h3v118h-3zm11 0h9v118h-9zm17 0h4v118h-4zm11 0h3v118h-3zm10 0h8v118h-8zm16 0h4v118h-4zm11 0h10v118h-10zm18 0h3v118h-3zm10 0h5v118h-5zm13 0h9v118h-9zm17 0h3v118h-3zm9 0h7v118h-7zm15 0h4v118h-4zm11 0h9v118h-9zm18 0h3v118h-3zm10 0h7v118h-7zm14 0h4v118h-4zm11 0h8v118h-8zm16 0h3v118h-3zm10 0h9v118h-9zm17 0h4v118h-4zm11 0h7v118h-7z"/>
+    </g>
+  </g>
+  <g transform="translate(1170 215)" fill="none" stroke="#ff94a3" stroke-linecap="round">
+    <path d="M0-55v110l38-32-38-23 38-23z" stroke-width="7"/>
+    <path d="M23-73c29 16 29 36 0 52m0 42c29 16 29 36 0 52" stroke-width="5" opacity=".8"/>
+  </g>
+</svg>
